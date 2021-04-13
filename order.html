@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="sidenavs.css">
+    <title>Order</title>
+<style>
+
+ul li{
+    display:inline-block;
+    text-decoration: none;
+    list-style-type: none;
+}
+.containerdiv{
+    width: 300px;
+    height: 400px;
+    position: relative;
+    left: 100px;
+    background-color: whitesmoke;
+    display: inline-block;
+    margin: 60px;
+    border-radius:0px 0px 20px 20px;
+    border: lightgray solid 1px;
+}
+.overlay{
+    position: absolute;;
+    left: 0px;
+    top: 360px;
+    bottom: 0px;
+    right: 0px;
+    width: 300px;  
+    height: 40px;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: rgb(241, 36, 67);
+    border-radius: 0px 0px 20px 20px;
+}
+.containerdiv:hover .overlay{
+    opacity: 1;
+}
+.bg{
+    background-image: url(images/orderbg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.a1{
+    display: block;
+    text-decoration: none;
+    background-color: rgb(71, 71, 182);
+    text-align: justify;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.imgtrans:hover{
+    transform: scale(1.3);
+}
+        
+button{
+    border:  rgb(241, 36, 67) solid 1px;
+    border-radius: 50px;
+    background-color:  rgb(241, 36, 67);
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:focus{
+    outline: none;
+}
+        
+</style>
+
+</head>
+<body class="bg" style="margin: 0px;">
+    <div style="width: 7%; position: fixed; top: 40px; right: 30px;">
+            <button onclick="remove()">Remove</button>
+            <a class="a1 cart" href="#"><i class="fa fa-shopping-bag" style="padding-left: 10px; font-size: 20px;">cart</i><b><span style="text-decoration: underline; padding-left: 24px; font-size: 24px;">0</span></b></a>
+    </div>
+    
+    <div style="width: 7%; position: fixed; top: 600px; right: 0px;">
+        <nav class="nav">
+            <li><a class="a" href="index.html"><span style="padding-left: 10px;">Home</span></a></li>
+        </nav>
+    </div>
+    <div style="text-align: center;">
+        <img style="border-bottom: orange solid 4px; border-right: orange solid 4px; border-left: orange solid 4px; border-radius: 2px 2px 40px 40px;" src="images/index.dessert.png" alt="">
+    </div>
+<div class="containerdiv">
+    <img class="imgtrans" width="301" height="200" src="images/order.cake5.jpg" alt="cake5" >
+    <p style="width: 280px; height: auto; text-align: left; padding-left: 10px; padding-right: 10px; padding-top: 10px; font-size: 15px;"><b style="text-decoration: underline;">Coffee Crush</b><br>Why call it Coffee Crush? Even non-coffee lovers will fall in love with this, and what's more? Contains NO caffeine! <br><br></p>
+    <header style="padding-left: 7px;"><b>$30.00</b></header>
+    <div class="overlay"><div style="text-align: center;"><a class="add-cart" style="display: block; padding: 10px;" href=""><button><b>Add Cart</b></button></a></div></div>
+</div>
+
+<div class="containerdiv">
+    <img class="imgtrans" width="301" height="200" src="images/order.cake1.jpg" alt="cake1">
+    <p style="width: 280px; height: auto; text-align: left; padding-left: 10px; padding-right: 10px; padding-top: 10px; font-size: 15px;"><b style="text-decoration: underline;">Chocolate Delight</b><br>One of our most popular cakes! 4 layer filled with creamy rich choco and caramel fllings.Two flavors at once, You'll be back for more!</p>
+    <header style="padding-left: 7px;"><b>$10.00</b></header>
+    <div class="overlay"><div style="text-align: center;"><a class="add-cart" style="display: block; padding: 10px;" href=""><button ><b>Add Cart</b></button></a></div></div>
+</div>
+
+<div class="containerdiv">
+    <img class="imgtrans" width="301" height="200" src="images/order.cake3.jpg" alt="cake3">
+    <p style="width: 280px; height: auto; text-align: left; padding-left: 10px; padding-right: 10px; padding-top: 10px; font-size: 15px;"><b style="text-decoration: underline;">Pounded Choco </b><br>Pounded with love and care. Intense chocolate flavours, best to pair with rasberry. A Must Try for really cake lovers!<br><br></p>
+    <header style="padding-left: 7px;"><b>$10.00</b></header>
+    <div class="overlay"><div style="text-align: center;"><a class="add-cart" style="display: block; padding: 10px;" href=""><button><b>Add Cart</b></button></a></div></div>
+</div>
+
+<div class="containerdiv">
+    <img class="imgtrans" width="301" height="200" src="images/order.cake6.jpg" alt="cake6">
+    <p style="width: 280px; height: auto; text-align: left; padding-left: 10px; padding-right: 10px; padding-top: 10px; font-size: 15px;"><b style="text-decoration: underline;">Love @ First Bite</b><br>Filled with a rich and creamy special sauce, from a secret recipe passed down for generation! Confirm Love @ First Bite!<br><span style="font-size: 12px;">**Safe for dog consumption**</span></p>
+    <header style="padding-left: 7px;"><b>$10.00</b></header>
+    <div class="overlay"><div style="text-align: center;"><a  class="add-cart" style="display: block; padding: 10px;" href=""><button><b>Add Cart</b></button></a></div></div>
+</div>
+
+<div class="containerdiv">
+    <img class="imgtrans" width="301" height="200" src="images/order.cake2.jpg" alt="cake2">
+    <p style="width: 280px; height: auto; text-align: left; padding-left: 10px; padding-right: 10px; padding-top: 10px; font-size: 15px;"><b style="text-decoration: underline;">Cupananas</b><br>Perfectly moist inside and filled with rich bananas flavours, yet not heavy. Comes with optional chocolate drizzle!<br><span style="font-size: 12px;">**Safe for dog consumption**</span></p>
+    <header style="padding-left: 7px;"><b>$10.00</b></header>
+    <div class="overlay"><div style="text-align: center;"><a class="add-cart" style="display: block; padding: 10px;" href=""><button><b>Add Cart</b></button></a></div></div>
+</div>
+
+
+<div style="height: 150px; padding-top: 50px; background-color: rgb(36, 36, 39);margin-top: 250px;">
+    <div style="display: inline-block; width: 100px; height: 100px; position: relative; left: 250px; bottom: 50px;">
+        <img width="100" height="100" src="images/logo.png" alt="logo">
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 400px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke; font-size: 30px;"><b>Follow Us</b></h1>
+        <a class="fa fa-facebook" href="#"></a><br>
+        <a class="fa fa-instagram" href="#"></a><br>
+        <a class="fa fa-twitter" href="#"></a>
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 480px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke;font-size: 30px;"><b>Need Help</b></h1><br>
+        <a class="foota" href="#">Terms and conditions</a><br>
+        <a class="foota" href="#">Privacy Policy</a><br>
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 600px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke;font-size: 30px;"><b>More</b></h1><br>
+        <a class="foota" href="#">Support</a><br>
+        <a class="foota" href="#">Donate</a><br>
+        <a class="foota" href="attribution.html">Attribution</a>
+    </div>
+</div>
+</body>
+<script src="cart.js" async></script>
+</html>

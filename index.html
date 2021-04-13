@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="all.css">
+    <title>Index</title>
+    
+<style>
+* {box-sizing: border-box;}
+
+
+.slide {
+  display: none;
+}
+
+.slideshow {
+  margin-left: 100px;
+  margin-right: 100px;
+  max-width: 100%;
+  position: relative;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  margin: 0 0px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: rgb(161, 154, 154) .8s ease-in;
+}
+
+.active {
+  background-color: red;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .3} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.container{
+  position: relative;
+  left: 70px;
+  width: 343.5px;
+  height: 120px;
+}
+.overlay{
+  position: absolute;;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 349px;  
+  height: 160px;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: black;
+}
+.container:hover .overlay{
+  opacity: 1;
+}
+.img{
+  vertical-align: middle;
+}
+</style>
+
+</head>
+<body style="margin: 0px; background-color: white;">
+
+  <div style="text-align: center; height: 145px;border-bottom: black solid 2px;">
+    <img src="images/index.cafe.png" alt="Cafe Rico">
+  </div>
+
+<div style="margin-bottom: 90px;">
+    <div class="container" style="display: inline-block;">
+        <img width="349px" height="160px" src="images/index.orders.png" alt="thumbnail">
+        <div class="overlay"><div><a href="order.html"><img width="349px" height="160px" src="images/index.dessert.png" alt="Cake"></a></div></div>
+    </div><div class="container" style="display: inline-block; position: relative; left: 70px;">
+        <img width="349px" height="160px" src="images/index.booking.png" alt="cake">
+        <div class="overlay"><div><a href="booking.html"><img width="349px" height="160px" src="images/index.reservation.png" alt="Booking"></a></div></div>
+    </div><div class="container" style="display: inline-block; position: relative; left: 70px;">
+        <img width="349px" height="160px" src="images/index.mascot.png" alt="mascot">
+        <div class="overlay"><div><a href="mascot.html"><img width="349px" height="160px" src="images/index.petus.png" alt="mascot"></a></div></div>
+    </div><div class="container" style="display:inline-block; position: relative; left: 70px;">
+        <img width="349px" height="160px" src="images/index.aboutus.png" alt="about us">
+        <div class="overlay"><div><a href="aboutus.html"><img width="349px" height="160px" src="images/index.hi.png" alt="About Us"></a></div></div>
+    </div>
+</div>
+
+  <div class="slideshow" style="background-color: black;">
+  
+  <div class="slide fade">
+    <img class="img" src="images/cafe.jpg" style="width:100%; height: 600px;">
+  </div>
+  
+  <div class="slide fade">
+    <img class="img" src="images/open.jpg" style="width:100%; height: 600px;">
+  </div>
+  
+  <div class="slide fade">
+    <img class="img" src="images/index.slides.jpg" style="width:100%; height: 600px ;">
+    <div>
+      <header style="padding-left: 40px; color: white; position: absolute; top: 70px; font-size: 60px;">Promotions</header>
+      <p style="padding-left: 40px; color: rgb(0, 255, 234); position: absolute; top: 120px; font-size: 30px;">@ Cr.2020<br>Facebook<br>Instagram<br>Twitter</p>
+    </div>
+  </div>
+  
+
+  </div>
+<br>
+  <div style="text-align:center; position: relative; bottom: 40px;">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+  </div>
+  
+<div style="height: 200px; padding-top: 50px; background-color: rgb(36, 36, 39); margin-top: 250px;">
+    <div style="display: inline-block; width: 100px; height: 100px; position: relative; left: 250px; bottom: 90px;">
+        <img style="vertical-align: middle;" width="100" height="100" src="images/logo.png" alt="logo">
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 400px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke; font-size: 30px;"><b>Follow Us</b></h1>
+        <a class="fa fa-facebook" href="#"></a><br>
+        <a class="fa fa-instagram" href="#"></a><br>
+        <a class="fa fa-twitter" href="#"></a>
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 480px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke;font-size: 30px;"><b>Need Help</b></h1><br>
+        <a class="foota" href="#">Terms and conditions</a><br>
+        <a class="foota" href="#">Privacy Policy</a><br>
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 600px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke;font-size: 30px;"><b>More</b></h1><br>
+        <a class="foota" href="#">Support</a><br>
+        <a class="foota" href="#">Donate</a><br>
+        <a class="foota" href="attribution.html">Attribution</a>
+    </div>
+    <audio controls autoplay style="position: relative; left: 600px;">
+      <source src="audio/315705__spitefuloctopus__acoustic-guitar-d-major-chord-short.wav" type="audio/wav">  
+    </audio>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,2 @@
+https://www.w3schools.com/html/default.asp
+https://css-tricks.com/almanac/properties/i/image-rendering/

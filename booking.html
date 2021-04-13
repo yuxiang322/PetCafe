@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="sidenavs.css">
+    <title>Booking</title>
+
+<style>
+
+.table, td{
+    border: 1px solid black;
+}
+
+.table {
+    border-collapse: collapse;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg{
+    background-image: url(images/booking.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+</style>
+
+</head>
+<body class="bg" style="margin: 0px;">
+
+<div style="width: 7%; position: fixed; top: 600px; right: 0px;">
+    <nav class="nav">
+        <li><a class="a" href="index.html"><span style="padding-left: 10px;">Home</span></a></li>
+    </nav>
+</div>
+
+<div style="background-color:rgb(216, 247, 43); width: 90%; height: 70px; margin-left: auto; margin-right: auto;">
+    <article>
+    <header style="text-align: center; color: red; font-size: 14px; padding-top: 5px;">**IMPORTANT**</header><p style="padding-left: 10px; padding-right: 10px; padding-bottom: 10px; font-size: 12px;">Due to COVID-19, Cafe Rico has to ensure safe distancing of our customers in our shop. As of 10/10/2020, we will have to take safety measures to ensure the safety of yours and our animals. We apologise in advance for any inconvinence caused, and also would like to thank our customer for cooperating.</p>
+    </article>
+</div>
+
+<div style="border: black solid 1px; background-color: lightgrey; height: 490px; width: 80%; margin-left: auto;margin-right: auto; margin-top: 130px;">  
+    
+    <table class="center" style="width: 80%; position: relative; left: 10px;">
+        <h1 style="padding: 3px; text-align: center; font-size: 30px;">TIME SLOTS</h1>
+    <tr>
+        <th style="text-align: left;"><label for="booking">Date</label>
+            <input type="date" id="booking" name="booking-date"
+               value="2020-11-28"
+               min="2020-12-7" max="2100-12-31"></th>
+    </tr>
+    <tr>
+        <td style="border: black solid 1px;">0800 to 1000</td>
+        <td><input type="radio" name="radio"></td>
+        <td class="slot-1">No. of visitor: <input type="number" value="0" min="1" max="5" > <input onclick="addnum()" type="submit"> Slots left: <span>0</span> /4</td>
+        <td>Slots left: 0/4</td>
+    </tr>
+    <tr>
+        <td style="border: black solid 1px;">1000 to 1200</td>
+        <td><input type="radio" name="radio"></td>
+        <td>No. of visitor: <input type="number" value="0" min="1" max="5" > <input onclick="Whensubmit()" type="submit"></td>
+        <td>Slots left: <span>0</span>/4</td>
+    </tr>
+    <tr>
+        <td style="border: black solid 1px;">1200 to 1400</td>
+        <td><input type="radio" name="radio"></td>
+        <td>No. of visitor: <input type="number" value="0" min="1" max="5" > <input onclick="Whensubmit()" type="submit"></td>
+        <td>Slots left: <span>0</span>/4</td>
+    </tr>
+    <tr>
+        <td style="border: black solid 1px;">1400 to 1600</td>
+        <td><input type="radio" name="radio"></td>
+        <td>No. of visitor: <input type="number" value="0" min="1" max="5" > <input onclick="Whensubmit()" type="submit"></td>
+        <td>Slots left: <span>0</span>/4</td>
+    </tr>
+    <tr>
+        <td style="border: black solid 1px;">1600 to 1800</td>
+        <td><input type="radio" name="radio"></td>
+        <td>No. of visitor: <input type="number" value="0" min="1" max="5" > <input onclick="Whensubmit()" type="submit"></td>
+        <td>Slots left: <span>0</span>/4</td>
+    </tr>
+    <tr>
+        <td style="border: black solid 1px;">1800 to 2000</td>
+        <td><input type="radio" name="radio"></td>
+        <td>No. of visitor: <input type="number" value="0" min="1" max="5" > <input onclick="Whensubmit()" type="submit"></td>
+        <td>Slots left: <span>0</span>/4</td>
+    </tr>
+    </table><br>
+    <article style="position: relative; top: 90px;">
+    <header style="padding: 10px;">**Terms and conditions**</header><p style="font-size: 12px; padding-left: 8px; padding-right: 8px;">Customers will be denied entry if they are not wearing a mask, required to bring phone to log in the Safey Entry App for contract tracing purposes. Customers will be asked to leave if they are found to be intentionally removing their mask in the premise, except when dining. Also, customers agree to have their temperature taken before entry and will be denied entry if they are deemed to be having a fever or feeling unwell. Customers have agree to follow the 1 metre safety distancing measure away from other customers. Please Turn up 10mins earlier so that no time will be wasted.</p>
+    </article>
+</div>
+<div style="height: 150px; padding-top: 50px; background-color: rgb(36, 36, 39); margin-top: 300px;">
+    <div style="display: inline-block; width: 100px; height: 100px; position: relative; left: 250px; bottom: 50px;">
+        <img width="100" height="100" src="images/logo.png" alt="logo">
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 400px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke; font-size: 30px;"><b>Follow Us</b></h1>
+        <a class="fa fa-facebook" href="#"></a><br>
+        <a class="fa fa-instagram" href="#"></a><br>
+        <a class="fa fa-twitter" href="#"></a>
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 480px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke;font-size: 30px;"><b>Need Help</b></h1><br>
+        <a class="foota" href="#">Terms and conditions</a><br>
+        <a class="foota" href="#">Privacy Policy</a><br>
+    </div>
+    <div style="display: inline-block; width: 150px; height: 150px; position: relative; left: 600px; bottom: 30px;">
+        <h1 style="margin: 0px; color: whitesmoke;font-size: 30px;"><b>More</b></h1><br>
+        <a class="foota" href="#">Support</a><br>
+        <a class="foota" href="#">Donate</a><br>
+        <a class="foota" href="attribution.html">Attribution</a>
+    </div>
+</div>
+
+<script src="booking.js"></script>
+</body>
+</html>

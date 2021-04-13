@@ -1,0 +1,85 @@
+https://unsplash.com
+https://www.pexels.com
+https://thenounproject.com/search/?q=about+us
+
+
+Photo by Artem Beliaikin from Pexels
+(open)
+<span>Photo by <a href="https://unsplash.com/@mparzuchowski?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Michał Parzuchowski</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(cafe)
+
+Photo by Abhinav Goswami from Pexels
+(order.cake1)
+Photo by Anastasia Zhenina from Pexels
+(order.cake2)
+<span>Photo by <a href="https://unsplash.com/@ellaolsson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ella Olsson</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(order.cake3)
+<span>Photo by <a href="https://unsplash.com/@steven__chan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Ting Tian</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(order.cake4)
+Photo by Daniela Echavez from Pexels
+(order.cake5)
+Photo by eric montanah from Pexels
+(order.cake6)
+
+Photo by ROMAN ODINTSOV from Pexels
+(index.cake)
+Photo by sergio souza from Pexels
+(index.pets)
+
+
+Photo by Israelzin Oliveira from Pexels
+(mochi4)
+Photo by Alice Castro from Pexels
+(mochi3)
+Photo by Hemant Gupta from Pexels
+(mochi2)
+Photo by Israelzin Oliveira from Pexels
+(mochi5)
+<span>Photo by <a href="https://unsplash.com/@conniekwan?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Connie Kwan</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(mochi1)
+
+
+Photo by Steshka Willems from Pexels
+(ulu1)
+(ulu2)
+Photo by Micah from Pexels
+(ulu3)
+(ulu4)
+(ulu5)
+
+Photo by Glenn from Pexels
+(miumiu1)
+Photo by Nataliya Vaitkevich from Pexels
+(miumiu2)
+Photo by Stephanie Ho from Pexels
+(miumiu3)
+<span>Photo by <a href="https://unsplash.com/@florenciapotter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Florencia Potter</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(miumiu4)
+
+
+<span>Photo by <a href="https://unsplash.com/@alisonpang?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Alison Pang</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(qiqi1)
+(qiqi2)
+(qiqi4)
+(qiqi5)
+
+
+
+Photo by Helena Lopes from Pexels
+(aboutus1)
+
+<span>Photo by <a href="https://unsplash.com/@romanbozhko?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Roman Bozhko</a> on <a href="https://unsplash.com/s/photos/cafe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(aboutus2)
+
+https://www.ahbcafe.com/
+https://www.facebook.com/ahbcafe
+(aboutus3)
+
+https://ambergoldenretriever.blogspot.com/2014/09/checking-out-happenstance-cafe.html
+(aboutus4)
+
+<span>Photo by <a href="https://unsplash.com/@thebeardbe?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Filip Bunkens</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+(wborder2)
+
+Photo by Buenosia Carol from Pexels
+(index.slides)

@@ -1,0 +1,19 @@
+.a:hover{
+    transform: scale(1.5);
+    background-color: rgb(255, 181, 193);
+}
+.nav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.a{
+    display: block;
+    background-color: rgb(136, 237, 255);
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px 0px 0px 50px;
+    border-bottom: black solid 1px;
+}
